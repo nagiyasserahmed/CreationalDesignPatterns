@@ -5,7 +5,7 @@ var original = new Employee
     Salary = 10000
 };
 
-var copy = original.Clone();
+var copy = original.DeepClone();
 copy.Name = "Ahmed";
 
 Console.WriteLine(original.Name); // Nagi

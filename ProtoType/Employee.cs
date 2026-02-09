@@ -18,5 +18,4 @@ public class Employee : IPrototype<Employee>
             Salary = this.Salary
         };
     }
-
 }
